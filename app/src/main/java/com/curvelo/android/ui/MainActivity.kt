@@ -1,10 +1,12 @@
-package com.curvelo.android
+package com.curvelo.android.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
+import com.curvelo.android.R
+import com.curvelo.android.ViewModel.CalculatorViewModel
 
 class MainActivity : AppCompatActivity() {
     private lateinit var calculatorViewModel: CalculatorViewModel
